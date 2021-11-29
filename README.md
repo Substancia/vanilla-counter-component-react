@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Vanilla Counter Component React
+
+Simple counter component made in React vanilla-style (without using external JS/CSS libraries).
+
+This app is a part of assignment by Quicksell.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
