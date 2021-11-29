@@ -1,0 +1,41 @@
+input[type=text] {
+  outline: none;
+  border: 1px solid #B24242;
+  background-color: #FBE8E8;
+  color: #B24242;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 900;
+  padding: 12px;
+  height: 30px;
+  width: 36px;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #B24242;
+  color: #B24242;
+  font-size: 21px;
+  font-weight: 900;
+  width: 60px;
+  height: 56px;
+  cursor: pointer;
+}
+
+button:focus, button:hover {
+  background-color: #B24242;
+  color: white;
+}
+button:hover {
+  transition: ease .2s;
+}
+
+.decrement {
+  border-radius: 8px 0 0 8px;
+  border-right: none;
+}
+
+.increment {
+  border-radius: 0 8px 8px 0;
+  border-left: none;
+}

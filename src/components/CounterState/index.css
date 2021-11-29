@@ -1,0 +1,28 @@
+.Counter-state {
+  margin: 10px 4px;
+  height: 16px;
+}
+
+.loaders {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.loader-circle {
+  display: inline-block;
+  border: 1px solid white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

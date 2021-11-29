@@ -1,0 +1,8 @@
+.Counter-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 38px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 1px 1px 1px lightgrey;
+  background-color: white;
+}
